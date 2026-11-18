@@ -1,0 +1,98 @@
+###########################################################################
+# custom additions here; see also .gitignore files in subdirectories.
+
+
+
+###########################################################################
+# CS50 recommended .gitignore file.
+# Copy this file into the top-level folder of any new git repository,
+# with name .gitignore (note the leading dot!), then extend it with
+# repo-specific files to be ignored (such as the name of the compiled binary).
+#
+# for documentation on gitignore files, see
+#   https://git-scm.com/docs/gitignore
+
+# NFS files
+.nfs*
+
+# ==========================================
+# Core Java & Compiled Binaries
+
+*.class
+*.log
+*.ctxt
+.mtj.tmp/
+
+# Package Files (Only ignore if you don't commit dependencies)
+*.jar
+!lib/*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Virtual Machine Crash Logs
+hs_err_pid*
+replay_pid*
+
+# ==========================================
+# Java build tool: Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.next
+pom.xml.note
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# ==========================================
+# Visual Studio Code
+.vscode/
+
+# ==========================================
+# Emacs backup and scratch files
+*~
+\#*\#
+.\#*
+TAGS
+
+# ==========================================
+# C programming
+
+# core dumps
+core
+
+# Object files and libraries
+*.o
+*.a
+a.out
+
+# debugger symbols
+*.dSYM
+
+# ==========================================
+# MacOS stuff
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V*
+.Trashes
+# Microsoft Office cruft
+~$*.pptx
+~$*.docx
+~$*.xlsx
+
+# ==========================================
+# Nuggets build output
+build/
+
+# ==========================================
+test.txt
+###########################################################################
